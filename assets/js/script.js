@@ -30,15 +30,11 @@ document.querySelector('#form-login').addEventListener('submit', e=>{
         password
 
     };
-    console.log(json);
 
-    let stringJSON = JSON.stringify(json); 
-
-    console.log(stringJSON);
-
-    let jsonParse = JSON.parse(stringJSON);
-
-    console.log(jsonParse.password);
+    if (json.email ==! "") {
+        
+        console.log("O campo foi preenchido!");
+    }
 
 });
 
