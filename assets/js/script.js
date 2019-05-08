@@ -14,26 +14,26 @@ document.getElementById('email').addEventListener('mousedown', e => {
     console.log('O mouse foi clicado dentro do formulário de email')
 });
 
-document.getElementById('password').addEventListener('mousedown', e =>{
+document.getElementById('password').addEventListener('mousedown', e => {
     console.log('O mouse foi clicado dentro do formulário de senha')
 
 });
 
-document.querySelector('#form-login').addEventListener('submit', e=>{
+document.querySelector('#form-login').addEventListener('submit', e => {
     e.preventDefault();
 
     let email = document.querySelector('#email').value
     let password = document.querySelector('#password').value;
 
-        let json =  {
+    let json = {
         email,
         password
 
     };
 
-    if (json.email ==! "") {
-        
-        console.log("O campo foi preenchido!");
+    if (!json.email) {
+
+        console.error("O campo e-mail deve ser preenchido!");
     }
 
 });
