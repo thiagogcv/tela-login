@@ -3,7 +3,7 @@
 
 Projeto desenvolvido através do<a href="https://www.udemy.com/share/100TQWAEQbdVlaQXg=">Curso Web Fundamentos 2019 - HTML5, CSS3 e JavaScript da HCode Treinamentos
 
-<img src="assets/images/images01.png">
+<img src="assets/images/image01.png">
 
 
 <a href="https://github.com/hcodebr">Hcode no Github
